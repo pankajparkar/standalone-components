@@ -12,4 +12,4 @@ import { DashboardComponent } from './dashboard.component';
   ],
   exports: [RouterModule],
 })
-export class ProductRoutingModule { }
+export class DashboardRoutingModule { }
