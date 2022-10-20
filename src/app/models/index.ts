@@ -1,1 +1,1 @@
-export * from './periodic-element.model';
+export * from './entity.model';

@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { PeriodicElement } from '../models';
+import { Entity } from '../models';
 import { ApiService } from '../services/api.service';
 
 @Component({
@@ -10,5 +10,5 @@ import { ApiService } from '../services/api.service';
 export class ProductComponent {
   private apiService = inject(ApiService);
   displayedColumns: string[] = ['position', 'name'];
-  dataSource: PeriodicElement[] = this.apiService.getPeriodicElements();
+  dataSource: Entity[] = this.apiService.getProducts();
 }
