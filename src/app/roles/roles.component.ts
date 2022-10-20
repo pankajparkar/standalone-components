@@ -9,6 +9,6 @@ import { ApiService } from '../services/api.service';
 })
 export class RolesComponent {
   private apiService = inject(ApiService);
-  displayedColumns: string[] = ['position', 'name'];
+  displayedColumns: string[] = ['id', 'name'];
   dataSource: Entity[] = this.apiService.getRoles();
 }
