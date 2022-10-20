@@ -7,7 +7,6 @@ import { DashboardComponent } from './dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { DashboardRoutingModule } from './dashboard.routing';
 
-
 const matModules = [
   MatGridListModule,
   MatCardModule,
