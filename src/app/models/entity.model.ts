@@ -1,4 +1,4 @@
 export interface Entity {
     name: string;
-    position: number;
+    id: number;
 }
